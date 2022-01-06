@@ -47,7 +47,7 @@ nav.bar a {
 
 nav.bar a:hover {
   padding: 12px;
-  background-color: dodgerblue;
+  background-color: greenyellow;
   display: inline-block;
   text-decoration: transparent;
   float: left;
@@ -58,7 +58,7 @@ nav.bar a:hover {
 nav.bar a.active {
   padding: 12px;
   float: left;
-  background-color: dodgerblue;
+  background-color: greenyellow;
   text-decoration: transparent;
   display: inline-block;
   animation-name: swap-right;
@@ -70,7 +70,7 @@ nav.bar a.active {
 h1 {
   text-align: center;
   color: white;
-  text-shadow: 3px 1px dodgerblue;
+  text-shadow: 3px 1px greenyellow;
   font-size: 45px;
   margin-top: 75px;
   animation-name: swap-cool;
@@ -80,7 +80,7 @@ h1 {
 h1.left {
   text-align: left;
   color: white;
-  text-shadow: 3px 1px dodgerblue;
+  text-shadow: 3px 1px greenyellow;
   font-size: 45px;
   margin-top: 75px;
   animation-name: swap-cool;
@@ -91,7 +91,7 @@ p {
   width: 100%;
   text-align: center;
   color: whitesmoke;
-  text-shadow: 2px 1px deepskyblue;
+  text-shadow: 2px 1px yellowgreen;
   animation-name: swap-cool;
   animation-duration: 1.25s;
 }
@@ -116,7 +116,7 @@ a.game {
   border-radius: 15px;
   background-color: #555;
   text-decoration: transparent;
-  box-shadow: 1px -1px dodgerblue;
+  box-shadow: 1px -1px greenyellow;
   margin-right: 1%;
   display: inline-block;
   padding: 15px;
@@ -126,7 +126,6 @@ a.game {
 
 a.game:hover {
   opacity: 60%;
-  padding: 14.5px;
 }
 
 @keyframes swap-right {
