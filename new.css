@@ -132,17 +132,6 @@ a.game:hover {
   box-shadow: 0px 0px 8px greenyellow;
 }
 
-.footer {
-  padding: 50px;
-  color: white;
-  background-color: lightgray;
-  bottom: 0;
-}
-
-footer {
-  display: block;
-}
-
 @keyframes swap-bottom {
   0% {
     transform: translateX(0) translateY(-100%);
