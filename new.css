@@ -138,6 +138,10 @@ a.game:hover {
   background-color: lightgray;
 }
 
+footer {
+  display: block;
+}
+
 @keyframes swap-bottom {
   0% {
     transform: translateX(0) translateY(-100%);
