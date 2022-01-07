@@ -31,8 +31,8 @@ nav.bar {
   width: 100%;
   background-color: #555;
   border-radius: 15px;
-  animation-name: swap-right;
-	animation-duration: 0.75s;
+  animation-name: swap-bottom;
+  animation-duration: 0.75s;
 }
 
 nav.bar a {
@@ -41,28 +41,28 @@ nav.bar a {
   color: white;
   text-decoration: transparent;
   float: left;
-  animation-name: swap-right;
-	animation-duration: 0.75s;
+  animation-name: swap-top;
+  animation-duration: 0.75s;
 }
 
 nav.bar a:hover {
   padding: 12px;
-  background-color: yellowgreen;
+  text-shadow: 0px 0px 8px yellowgreen;
   display: inline-block;
   text-decoration: transparent;
   float: left;
-  animation-name: swap-right;
-	animation-duration: 0.75s;
+  animation-name: swap-top;
+  animation-duration: 0.75s;
 } 
 
 nav.bar a.active {
   padding: 12px;
   float: left;
-  background-color: yellowgreen;
+  text-shadow: 0px 0px 8px yellowgreen;
   text-decoration: transparent;
   display: inline-block;
-  animation-name: swap-right;
-	animation-duration: 0.75s;
+  animation-name: swap-top;
+  animation-duration: 0.75s;
 }
 
 /* End <nav> Bar */
@@ -73,7 +73,7 @@ h1 {
   text-shadow: 3px 1px yellowgreen;
   font-size: 45px;
   margin-top: 75px;
-  animation-name: swap-cool;
+  animation-name: swap-right;
   animation-duration: 1.25s;
 }
 
@@ -83,7 +83,7 @@ h1.left {
   text-shadow: 3px 1px yellowgreen;
   font-size: 45px;
   margin-top: 75px;
-  animation-name: swap-cool;
+  animation-name: swap-right;
   animation-duration: 1.25s;
 }
 
@@ -92,7 +92,7 @@ p {
   text-align: center;
   color: whitesmoke;
   text-shadow: 2px 1px greenyellow;
-  animation-name: swap-cool;
+  animation-name: swap-right;
   animation-duration: 1.25s;
 }
 
@@ -130,23 +130,26 @@ a.game:hover {
   box-shadow: 0px 0px 10px greenyellow;
 }
 
-@keyframes swap-right {
+@keyframes swap-bottom {
   0% {
-    transform: translateX(-100%) translateY(-100%);
-  }
-  50% {
-    transform: translateX(0) translateY(-150%);
+    transform: translateX(0) translateY(-100%);
   }
   100% {
     transform: translateX(0) translateY(0);
   }
 }
 
-@keyframes swap-cool {
+@keyframes swap-top {
   0% {
-    transform: translateX(-100%) translateY(-100%);
+    transform: translateX(0) translateY(100%);
   }
-  50% {
+  100% {
+    transform: translateX(0) translateY(0);
+  }
+}
+
+@keyframes swap-right {
+  0% {
     transform: translateX(-100%) translateY(0);
   }
   100% {
