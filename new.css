@@ -136,6 +136,7 @@ a.game:hover {
   padding: 50px;
   color: white;
   background-color: lightgray;
+  bottom: 0;
 }
 
 footer {
