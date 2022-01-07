@@ -47,7 +47,7 @@ nav.bar a {
 
 nav.bar a:hover {
   padding: 12px;
-  background-color: greenyellow;
+  background-color: yellowgreen;
   display: inline-block;
   text-decoration: transparent;
   float: left;
@@ -58,7 +58,7 @@ nav.bar a:hover {
 nav.bar a.active {
   padding: 12px;
   float: left;
-  background-color: greenyellow;
+  background-color: yellowgreen;
   text-decoration: transparent;
   display: inline-block;
   animation-name: swap-right;
@@ -70,7 +70,7 @@ nav.bar a.active {
 h1 {
   text-align: center;
   color: white;
-  text-shadow: 3px 1px greenyellow;
+  text-shadow: 3px 1px yellowgreen;
   font-size: 45px;
   margin-top: 75px;
   animation-name: swap-cool;
@@ -80,7 +80,7 @@ h1 {
 h1.left {
   text-align: left;
   color: white;
-  text-shadow: 3px 1px greenyellow;
+  text-shadow: 3px 1px yellowgreen;
   font-size: 45px;
   margin-top: 75px;
   animation-name: swap-cool;
@@ -91,7 +91,7 @@ p {
   width: 100%;
   text-align: center;
   color: whitesmoke;
-  text-shadow: 2px 1px yellowgreen;
+  text-shadow: 2px 1px greenyellow;
   animation-name: swap-cool;
   animation-duration: 1.25s;
 }
@@ -108,7 +108,7 @@ img.profile {
   display: block;
   box-shadow: 0px 0px 20px blueviolet;
   animation-name: imgpopout;
-  animation-duration: 2.5s;
+  animation-duration: 2.25s;
 }
 
 a.game {
