@@ -17,10 +17,7 @@
 }
 
 body {
-  background-image: url('https://www.colorbook.io/imagecreator.php?hex=2e2e2e&width=1920& height=1080&text=%201920x1080');
-  background-repeat: no-repeat;
-  background-attachment: fixed; 
-  background-size: cover;
+  background-color: #2e2e2e;
   font-family: sfuidisplay;
 }
 
